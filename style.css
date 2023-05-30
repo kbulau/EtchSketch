@@ -1,6 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 600px;
     height: 600px;
     border: 1px solid black;
@@ -13,5 +19,17 @@
 div{
     /* height: 60px;
     width: 60px; */
-    outline: 1px solid black
+    outline: .01px solid black
 }
+
+#buttons {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    width: 60px;
+    height: 20px;
+}
+
