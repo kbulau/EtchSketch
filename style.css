@@ -1,0 +1,17 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+*{
+    outline: 1px solid red;
+}
+
+div{
+    /* height: 60px;
+    width: 60px; */
+    outline: 1px solid black
+}
